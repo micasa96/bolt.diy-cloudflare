@@ -49,6 +49,7 @@ const PROVIDER_ICONS: Record<ProviderName, IconType> = {
   OpenAI: SiOpenai,
   OpenRouter: FaCloud,
   Perplexity: SiPerplexity,
+  Puter: RiCloudLine,
   Together: BsCloud,
   XAI: BsRobot,
 };
@@ -57,6 +58,9 @@ const PROVIDER_ICONS: Record<ProviderName, IconType> = {
 const PROVIDER_DESCRIPTIONS: Partial<Record<ProviderName, string>> = {
   Anthropic: 'Access Claude and other Anthropic models',
   OpenAI: 'Use GPT-4, GPT-3.5, and other OpenAI models',
+  Puter: 'Free, unlimited access to Claude models via Puter.js',
+};
+  
 };
 
 const CloudProvidersTab = () => {
