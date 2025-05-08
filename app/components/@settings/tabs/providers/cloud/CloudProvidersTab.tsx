@@ -14,6 +14,7 @@ import { TbBrain, TbCloudComputing } from 'react-icons/tb';
 import { BiCodeBlock, BiChip } from 'react-icons/bi';
 import { FaCloud, FaBrain } from 'react-icons/fa';
 import type { IconType } from 'react-icons';
+import { RiCloudLine } from 'react-icons/ri';
 
 // Add type for provider names to ensure type safety
 type ProviderName =
@@ -29,8 +30,10 @@ type ProviderName =
   | 'OpenAI'
   | 'OpenRouter'
   | 'Perplexity'
+  | 'Puter'
   | 'Together'
   | 'XAI';
+
 
 // Update the PROVIDER_ICONS type to use the ProviderName type
 const PROVIDER_ICONS: Record<ProviderName, IconType> = {
